@@ -72,7 +72,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'my_proj.wsgi.application'
-
+CORS_ALLOWED_ORIGINS = [
+    "https://tictaktoe-tg.vercel.app",
+]
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
