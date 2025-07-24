@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-kakr3a#ak#^h5711uzal=7y_m10q@#vxcb)naco9g-3*bragv(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tictaktoe-back.onrender.com', 'localhost', '127.0.0.1', 'https://tictaktoe-tg.vercel.app/']
 
 
 # Application definition
