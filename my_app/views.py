@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
-from .tictactoe_memory import new_game, move, get_state, check_winner, ready_for_new_game, join_game
+from .tictactoe_memory import new_game, move, get_state, check_winner, ready_for_new_game, join_game, get_player_symbol
 
 # Create your views here.
 
